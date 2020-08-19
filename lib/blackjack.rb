@@ -7,8 +7,8 @@ num=rand(11)
 return num
 end
 
-def display_card_total(num)
-  # code #display_card_total here
+def display_card_total(card_total)
+puts "Your cards add up to #{card_total}"
 end
 
 def prompt_user
