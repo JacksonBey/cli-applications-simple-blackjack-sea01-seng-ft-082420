@@ -29,6 +29,7 @@ end
 def initial_round
 ctotal=deal_card+deal_card
 display_card_total(ctotal)
+return ctotal
 end
 
 def hit?
