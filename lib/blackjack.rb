@@ -47,9 +47,9 @@ else if input === 'h'
   return card_total
 else
   until input=== 's' or 'h'
-  invalid_command
-  prompt_user
-  input=get_user_input
+    invalid_command
+    prompt_user
+    input=get_user_input
 end
 end
 end
