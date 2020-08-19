@@ -40,17 +40,16 @@ end
 def hit?(card_total)
 prompt_user
 input=get_user_input
+until input=== 's' or 'h'
+  invalid_command
+  prompt_user
+  input=get_user_input
+end
 if input==='s'
   return card_total
 else if input === 'h'
   card_total+=deal_card
   return card_total
-else
-  until input=== 's' or 'h'
-    invalid_command
-    prompt_user
-    input=get_user_input
-end
 end
 end
 end
