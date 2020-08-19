@@ -5,7 +5,7 @@ end
 
 def deal_card
 binding.pry
-card_total=rand(11)
+card_total=rand(10)+1
 return card_total
 end
 
