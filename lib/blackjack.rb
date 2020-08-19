@@ -32,6 +32,7 @@ return ctotal
 end
 
 def invalid_command
+  puts 
 return 'Please enter a valid command'
 end
 
