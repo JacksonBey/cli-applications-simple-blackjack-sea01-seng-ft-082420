@@ -43,8 +43,10 @@ input=get_user_input
 until input=== 's' or 'h'
   invalid_command
   prompt_user
+  binding.pry
   input=get_user_input
 end
+
 if input==='s'
   return card_total
 else if input === 'h'
