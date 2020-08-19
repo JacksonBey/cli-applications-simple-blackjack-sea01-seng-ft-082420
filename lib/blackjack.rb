@@ -46,7 +46,6 @@ else if input === 'h'
   card_total+=deal_card
   return card_total
 else
-  binding.pry
   invalid_command
   prompt_user
   return card_total
