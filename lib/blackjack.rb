@@ -49,6 +49,7 @@ else
   binding.pry
   invalid_command
   prompt_user
+  return card_total
 end
 end
 end
