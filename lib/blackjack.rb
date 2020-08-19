@@ -3,8 +3,8 @@ puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
-num=rand(11)
-return num
+card_total=rand(11)
+return card_total
 end
 
 def display_card_total(card_total)
