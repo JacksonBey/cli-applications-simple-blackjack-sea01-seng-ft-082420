@@ -7,7 +7,7 @@ num=rand(11)
 return num
 end
 
-def display_card_total
+def display_card_total(num)
   # code #display_card_total here
 end
 
