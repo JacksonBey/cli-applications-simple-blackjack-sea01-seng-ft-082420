@@ -32,6 +32,9 @@ display_card_total(ctotal)
 return ctotal
 end
 
+def invalid_command
+puts 'Please enter a valid command'
+end
 def hit?(card_total)
 prompt_user
 input=get_user_input
@@ -48,9 +51,6 @@ end
 end
 end
 
-def invalid_command
-puts 'Please enter a valid command'
-end
 
 #####################################################
 # get every test to pass before coding runner below #
