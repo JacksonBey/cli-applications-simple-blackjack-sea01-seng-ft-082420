@@ -14,6 +14,7 @@ return card_total
 end
 
 def prompt_user
+  puts "Type 'h' to hit or 's' to stay"
 return "Type 'h' to hit or 's' to stay"
 end
 
@@ -32,7 +33,7 @@ return ctotal
 end
 
 def invalid_command
-  puts 
+  puts 'Please enter a valid command'
 return 'Please enter a valid command'
 end
 
