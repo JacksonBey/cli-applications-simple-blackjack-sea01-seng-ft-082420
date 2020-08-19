@@ -32,7 +32,7 @@ display_card_total(ctotal)
 return ctotal
 end
 
-def hit?
+def hit?(card_total)
   # code hit? here
 end
 
