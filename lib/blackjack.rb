@@ -37,6 +37,8 @@ prompt_user
 input=get_user_input
 if input==='s'
 else if input === 'h'
+  card_total+=deal_card
+else
   
 end
 end
