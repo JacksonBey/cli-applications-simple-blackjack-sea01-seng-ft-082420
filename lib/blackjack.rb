@@ -40,7 +40,7 @@ end
 def hit?(card_total)
 prompt_user
 input=get_user_input
-until input=== 's' or 'h'
+if input != 's' or 'h'
 binding.pry
   invalid_command
   prompt_user
