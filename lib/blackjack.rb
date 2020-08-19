@@ -1,8 +1,10 @@
+require 'pry'
 def welcome
 puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
+binding.pry
 card_total=rand(11)
 return card_total
 end
