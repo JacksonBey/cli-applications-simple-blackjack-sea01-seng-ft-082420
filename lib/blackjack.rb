@@ -41,7 +41,7 @@ else if input === 'h'
   card_total+=deal_card
   return card_total
 else
-  puts 'Please enter a valid command'
+  invalid_command
   prompt_user
 end
 end
